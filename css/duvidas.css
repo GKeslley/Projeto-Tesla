@@ -1,0 +1,52 @@
+.duvidas {
+  padding-bottom: 80px;
+}
+
+.duvidas-conteudo span {
+  margin-bottom: 40px;
+}
+
+.duvidas-conteudo h2 {
+  margin-bottom: 30px;
+}
+
+.duvida {
+  margin-bottom: 25px;
+}
+
+.duvida dt {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.duvida dt::after {
+  content: "";
+  display: inline-block;
+  background-image: url(../imgs/seta-para-baixo.png);
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  color: black;
+}
+
+.duvida:nth-child(even) {
+  padding-left: 5px;
+}
+
+.duvida:nth-child(odd) {
+  background: #f2f2f2;
+  padding: 15px 5px;
+  border-radius: 4px;
+}
+
+article {
+  width: 100%;
+  background-image: url(../imgs/interior\ tesla.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 40vh;
+  background-size: cover;
+}

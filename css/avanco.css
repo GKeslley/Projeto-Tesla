@@ -1,0 +1,77 @@
+.avanco {
+  background: black;
+  background: linear-gradient(180deg, black 75%, white 0);
+}
+
+.avanco-conteudo {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  color: white;
+}
+
+.avanco-conteudo > span {
+  margin-bottom: 40px;
+}
+
+.avanco-conteudo h2 {
+  margin-bottom: 60px;
+}
+
+.avanco-extras {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.avanco-itens {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.avanco-itens img {
+  height: 100%;
+  object-fit: cover;
+  object-position: right;
+}
+
+.avanco-infos:last-child {
+  grid-column: 1 / -1;
+}
+
+.avanco-itens span {
+  margin-bottom: 8px;
+}
+
+@media (max-width: 820px) {
+  .avanco-itens {
+    grid-template-columns: 1fr;
+  }
+  .avanco-extras {
+    grid-row: 1;
+    grid-template-columns: 1fr;
+    margin-bottom: 30px;
+    gap: 20px;
+  }
+  .avanco-infos {
+    border-top: 2px solid white;
+    padding-top: 10px;
+  }
+  .avanco-infos:first-child {
+    border: none;
+  }
+  .avanco-infos span {
+    font-size: 2rem;
+  }
+  .avanco-infos p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .avanco {
+    background: linear-gradient(180deg, black 80%, white 0);
+  }
+}

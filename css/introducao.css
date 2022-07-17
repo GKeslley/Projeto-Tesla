@@ -1,0 +1,44 @@
+.introducao-bg {
+  background-color: black;
+}
+
+.introducao {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+.introducao-conteudo {
+  color: white;
+}
+
+.introducao-conteudo span {
+  margin-bottom: 60px;
+}
+
+.introducao-conteudo h1 {
+  margin-bottom: 40px;
+  line-height: 3.2rem;
+}
+
+.introducao-conteudo p {
+  line-height: 2rem;
+}
+
+.introducao picture {
+  justify-self: right;
+}
+
+@media (max-width: 820px) {
+  .introducao {
+    grid-template-columns: 1fr;
+  }
+  .introducao picture {
+    justify-self: center;
+  }
+  .introducao-conteudo p {
+    margin-bottom: 20px;
+  }
+}
