@@ -1,0 +1,36 @@
+.opacity-0 {
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.opacity-1 {
+  opacity: 1;
+}
+
+@keyframes leftScroll {
+  from {
+    transform: translate3d(30px, 0, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes rightScroll {
+  from {
+    transform: translate3d(-30px, 0, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.leftMove {
+  animation: leftScroll 0.3s forwards;
+  transition: 0.5s;
+}
+
+.rightMovie {
+  animation: rightScroll 0.3s forwards;
+  transition: 0.5s;
+}

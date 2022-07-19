@@ -9,7 +9,7 @@
 
   <title>Tesla</title>
 
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./style.css">
   <link rel="icon" href="./imgs/Tesla_Motors.svg" type="image/svg+xml">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,7 +22,7 @@
     <video class="video-container" controls muted autoplay loop>
       <source src="./imgs/Flight Through Beautiful Clouds Footage 4K Loop.mp4" type="video/mp4">
     </video>
-    <div class="tesla-img">
+    <div class="tesla-img" data-scroll>
       <h1 class="principal">A MAIOR TECNOLOGIA <br>AUTOMOBILÍSTICA CHEGOU</h1>
       <picture>
         <img src="./imgs/teslabg2.png" alt="Homem dirigindo um carro">
@@ -32,7 +32,7 @@
 
   <main>
     <section class="introducao-bg" aria-label="Introdução">
-      <div class="introducao container">
+      <div class="introducao container" data-scroll>
         <div class="introducao-conteudo">
           <span class="font-p">Futuro</span>
           <h1 class="font-M">A forma como nossos carros mudaram o mundo</h1>
@@ -54,7 +54,7 @@
           <h2 class="font-M">A tecnologia por trás dos carros Tesla</h2>
         </div>
 
-        <div class="tecnologia-itens">
+        <div class="tecnologia-itens" data-scroll>
           <div>
             <h3 class="font-M">Direção Autonôma</h3>
             <p class="font-p">Você sabe como um Tesla autônomo funciona?
@@ -65,13 +65,13 @@
               equipa todos os modelos da marca.</p>
           </div>
           <picture>
-            <img src="./imgs/tesla preto.png" alt="Carro tesla preto">
+            <img src="./imgs/tesla_preto.png" alt="Carro tesla preto" data-time>
           </picture>
         </div>
 
-        <div class="tecnologia-itens">
+        <div class="tecnologia-itens" data-scroll data-left>
           <picture>
-            <img src="./imgs/posto eletrico.png" alt="Posto eletrico">
+            <img src="./imgs/posto_eletrico.png" alt="Posto eletrico">
           </picture>
 
           <div class="tecnologia-item">
@@ -83,7 +83,7 @@
           </div>
         </div>
 
-        <div class="tecnologia-itens">
+        <div class="tecnologia-itens" data-scroll>
           <div>
             <h3 class="font-M">Natural Language
               Processing</h3>
@@ -93,7 +93,7 @@
               toda essa informação para tomar decisões autônomas. </p>
           </div>
           <picture>
-            <img src="./imgs/tesla vermelho.png" alt="Carro tesla vermelho">
+            <img src="./imgs/tesla_vermelho.png" alt="Carro tesla vermelho">
           </picture>
         </div>
 
@@ -107,11 +107,11 @@
           <h2 class="font-M">Avanços Tesla</h2>
 
           <div class="avanco-itens">
-            <picture>
+            <picture data-scroll>
               <img src="./imgs/cybertruck.png" alt="Carro tesla cybertruck">
             </picture>
 
-            <div class="avanco-extras">
+            <div class="avanco-extras" data-scroll data-left>
               <div class="avanco-infos">
                 <span class="font-B">109</span>
                 <p class="font-p">Lojas</p>
@@ -133,7 +133,7 @@
       </div>
     </section>
 
-    <section class=" duvidas container" id="duvidas">
+    <section class="duvidas container" id="duvidas" data-scroll>
       <div class="duvidas-conteudo">
         <span class="font-p">Dúvidas</span>
         <h2 class="font-M">Por que Tesla</h2>
@@ -161,7 +161,7 @@
     <article aria-label="Background interior do tesla">
     </article>
 
-    <section class="footer container">
+    <section class="footer container" data-scroll>
       <picture>
         <img src="./imgs/Tesla_Motors.svg" alt="">
       </picture>
@@ -188,6 +188,7 @@
     </section>
 
   </main>
+  <script type="module" src="./script.js"></script>
 </body>
 
 </html>

@@ -8,3 +8,5 @@
 
 @import "./css/componentes/tipografia.css";
 @import "./css/componentes/elementos.css";
+
+@import "./css/componentes/animacoes/scroll.css";
