@@ -41,8 +41,18 @@
   box-shadow: 0 8px #000, 0 -8px #000;
 }
 
+@keyframes sideShow {
+  from {
+    transform: translate3d(-30px, 0, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
 .show-sidebar {
   display: block;
+  animation: sideShow 0.3s forwards;
 }
 
 .links li {
