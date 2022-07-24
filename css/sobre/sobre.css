@@ -1,0 +1,89 @@
+.sobre h1 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.sobre-conteudo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: center;
+}
+
+.imagem {
+  background-image: url(/imgs/sobre/elon-musk-tesla-cybertruck.jpg);
+}
+
+.imagem2 {
+  background-image: url(/imgs/sobre/curiosidades.jpg);
+}
+
+.imagem3 {
+  background-image: url(/imgs/sobre/empresas.jpg);
+}
+
+.imagem,
+.imagem2,
+.imagem3 {
+  height: 100%;
+  background-size: cover;
+  border-radius: 6px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.sobre-conteudo li:last-child {
+  grid-column: 1/-1;
+}
+
+.texto {
+  padding: 60px 20px;
+  font-family: Arial;
+  text-align: center;
+  color: white;
+  opacity: 0;
+  transition: opacity 0.2s linear;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.texto h3 {
+  margin-bottom: 10px;
+}
+
+.texto p {
+  margin-bottom: 25px;
+}
+
+.texto a {
+  color: white;
+  border: 1px solid white;
+  padding: 8px 15px;
+}
+
+.texto a:hover {
+  background: red;
+}
+
+.imagem:hover .texto,
+.imagem2:hover .texto,
+.imagem3:hover .texto {
+  opacity: 1;
+}
+
+@keyframes opacity {
+  from {
+    transform: translate3d(100px, 0, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@media (max-width: 820px) {
+  .sobre-conteudo {
+    grid-template-columns: 1fr;
+  }
+  .texto {
+    opacity: 1;
+  }
+}

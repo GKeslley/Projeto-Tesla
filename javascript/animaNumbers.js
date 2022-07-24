@@ -1,7 +1,7 @@
 export default function initAnimaNumbers() {
   const numberElements = document.querySelectorAll("[data-number]");
 
-  if (numberElements) {
+  if (numberElements.length) {
     function animationNumbers() {
       numberElements.forEach((valor) => {
         let start = 0;

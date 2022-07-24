@@ -63,6 +63,7 @@
   font-size: 1.2rem;
   display: grid;
   padding: 10px 0px;
+  color: black;
 }
 
 .links li a:hover {
