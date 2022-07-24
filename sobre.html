@@ -48,36 +48,74 @@
 
   </header>
 
-  <section class="sobre container">
+  <section class="sobre container" aria-label="sobre">
     <h1 class="font-B">Sobre</h1>
-    <div>
-      <ul class="sobre-conteudo">
+    <div class="sobre-conteudo">
+
+      <picture class="img-principal">
+        <img src="./imgs/sobre/elon-musk-tesla-cybertruck.jpg" alt="">
+      </picture>
+
+      <ul class="sobre-buttons">
+        <button class="font-p3">Fundador</button>
+        <button class="font-p3">Curiosidades</button>
+        <button class="font-p3">Empresas</button>
+      </ul>
+
+      <div class="sobre-descricoes">
+
+        <div id="fundador">
+          <h3>Elon Musk</h3>
+          <span class="font-p3">Você sabia que a Tesla não foi fundada pelo bilionário Elon Musk, que sem dúvidas é a figura mais famosa por trás da empresa? E que ela já ficou a dias de declarar falência? Descubra sobre a companhia automobilística que mais dá o que falar atualmente.</span>
+        </div>
+
+        <div id="curiosidades">
+          <h3>Curiosidades</h3>
+          <span class="font-p3">Tesla significa Acelerador Linear Supercondutor de Energia Tera elétron volt, e o nome da empresa é uma homenagem ao engenheiro e inventor sérvio-americano Nikola Tesla, que inventou o motor de indução e a transmissão de energia de corrente alternada (CA).</span>
+        </div>
+
+        <div id="empresas">
+          <h3>Empresas Tesla</h3>
+          <span class="font-p3">Apesar da atuação da companhia ser direcionada para fabricação e distribuição de veículos elétricos, com a Tesla Motors, ela também atua em projetos de sustentabilidade. A empresa tem iniciativas na geração e armazenamento de energia solar, bem como na comercialização de componentes elétricos como baterias industriais de lítio-íon.</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="vantagens-bg">
+    <div class="vantagens container">
+      <h1 class="principal">Vantagens</h1>
+      <ul class="vantagens-conteudo font-p" data-scroll>
         <li>
-          <div class="imagem">
-            <div class="texto">
-              <h3>Elon Musk</h3>
-              <p>Descubra quem é Elon Musk</p>
-              <a href="./">ACESSAR</a>
-            </div>
-          </div>
+          <img src="./imgs/sobre/icones/cadeado.svg" alt="">
+          <p>Segurança</p>
+          <span class="font-p3">Com a equipe Tesla você pode ficar tranquilo em saber que o seu dinheiro não será perdido em casos de roubo.</span>
         </li>
         <li>
-          <div class="imagem2">
-            <div class="texto">
-              <h3>Curiosidades</h3>
-              <p>Conheça curiosidades sobre a Tesla</p>
-              <a href="./">ACESSAR</a>
-            </div>
-          </div>
+          <img src="./imgs/sobre/icones/velocidade.svg" alt="">
+          <p>Velocidade</p>
+          <span class="font-p3">Nossos carros atingem velocidades inimagináveis! Dirija com segurança</span>
         </li>
         <li>
-          <div class="imagem3">
-            <div class="texto">
-              <h3>Empresas Tesla</h3>
-              <p>Venha conhecer nossas empresas</p>
-              <a href="./">ACESSAR</a>
-            </div>
-          </div>
+          <img src="./imgs/sobre/icones/inteligencia.svg" alt="">
+          <p>Inteligência Artificial</p>
+          <span class="font-p3">A Tesla utiliza inteligencia artificial em todos os seus veículos para garantir melhor segurança e diversão.</span>
+        </li>
+        <li>
+          <img src="./imgs/sobre/icones/sustentavel.svg" alt="">
+          <p>Sustentável</p>
+          <span class="font-p3">Nossos carros híbridos não utilizam a queima do combustível fóssil e preserva o meio ambiente!</span>
+        </li>
+        <li>
+          <img src="./imgs/sobre/icones/autonomo.svg" alt="">
+          <p>Autonômo</p>
+          <span class="font-p3">Temos a melhor tecnologia do mercado referente a carros autonomos, venha conhecer!</span>
+        </li>
+        <li>
+          <img src="./imgs/sobre/icones/bateria.svg" alt="">
+          <p>Bateria</p>
+          <span class="font-p3">As baterias da tesla a base de níquel podem durar até 100 anos! Chega de esquentar a cabeça com peças de carro né?</span>
         </li>
       </ul>
     </div>
@@ -86,7 +124,7 @@
 
   <section class="footer container" data-scroll>
     <picture>
-      <img src="./imgs/Tesla_Motors.svg" alt="">
+      <a href="./index.html"><img src="./imgs/Tesla_Motors.svg" alt=""></a>
     </picture>
     <div class="footer-infos">
       <ul class="font-L">

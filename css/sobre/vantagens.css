@@ -1,0 +1,66 @@
+.vantagens-bg {
+  background: white;
+}
+
+.vantagens {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: black;
+}
+
+.vantagens h1 {
+  margin-bottom: 40px;
+}
+
+.vantagens-conteudo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, max-content));
+  gap: 60px 30px;
+  justify-content: space-between;
+}
+
+.vantagens-conteudo img {
+  margin-bottom: 15px;
+  color: #87d607;
+}
+
+.vantagens-conteudo p {
+  margin-bottom: 8px;
+}
+
+.vantagens-conteudo span {
+  line-height: 1.5rem;
+}
+
+.vantagens-conteudo li:nth-child(odd),
+.vantagens-conteudo li:nth-child(even) {
+  border-right: 1px solid black;
+}
+
+.vantagens-conteudo li:nth-child(3),
+.vantagens-conteudo li:nth-child(6) {
+  border: none;
+}
+
+@media (max-width: 1045px) {
+  .vantagens-conteudo li:nth-child(even) {
+    border: none;
+  }
+  .vantagens-conteudo li:nth-child(odd) {
+    border-right: 1px solid black;
+    margin-left: 8px;
+  }
+}
+
+@media (max-width: 750px) {
+  .vantagens-conteudo li:nth-child(odd) {
+    border: none;
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 390px) {
+  .vantagens-conteudo {
+    grid-template-columns: 1fr;
+  }
+}
