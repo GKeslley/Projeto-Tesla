@@ -1,11 +1,11 @@
 .vantagens-bg {
-  background: white;
+  background: var(--cor-0);
 }
 
 .vantagens {
   padding-top: 60px;
   padding-bottom: 60px;
-  color: black;
+  color: var(--cor-12);
 }
 
 .vantagens h1 {
@@ -34,7 +34,7 @@
 
 .vantagens-conteudo li:nth-child(odd),
 .vantagens-conteudo li:nth-child(even) {
-  border-right: 1px solid black;
+  border-right: 1px solid var(--cor-12);
 }
 
 .vantagens-conteudo li:nth-child(3),
@@ -47,7 +47,7 @@
     border: none;
   }
   .vantagens-conteudo li:nth-child(odd) {
-    border-right: 1px solid black;
+    border-right: 1px solid var(--cor-12);
     margin-left: 8px;
   }
 }

@@ -1,5 +1,5 @@
 .introducao-bg {
-  background-color: black;
+  background-color: var(--cor-12);
 }
 
 .introducao {
@@ -11,7 +11,7 @@
 }
 
 .introducao-conteudo {
-  color: white;
+  color: var(--cor-0);
 }
 
 .introducao-conteudo span {

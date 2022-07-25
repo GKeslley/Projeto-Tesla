@@ -27,7 +27,7 @@
   background-repeat: no-repeat;
   width: 24px;
   height: 24px;
-  color: black;
+  color: var(--cor-12);
   transition: 0.3s;
 }
 

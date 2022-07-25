@@ -1,7 +1,7 @@
 .tecnologia {
   display: grid;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .tecnologia-conteudo span {
@@ -19,7 +19,10 @@
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   gap: 0px 40px;
-  margin-bottom: 80px;
+}
+
+.tecnologia div + div {
+  margin-top: 80px;
 }
 
 .tecnologia-itens h3 {

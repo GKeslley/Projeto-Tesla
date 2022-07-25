@@ -16,7 +16,7 @@
 }
 
 .footer-infos a {
-  color: black;
+  color: var(--cor-12);
 }
 
 .footer-infos a:hover {
@@ -35,5 +35,5 @@ form label {
 form input {
   padding: 8px 5px;
   border-radius: 4px;
-  border: 1px solid black;
+  border: 1px solid var(--cor-12);
 }
