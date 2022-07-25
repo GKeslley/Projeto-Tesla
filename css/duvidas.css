@@ -54,3 +54,13 @@ article {
   height: 40vh;
   background-size: cover;
 }
+
+@media (max-width: 500px) {
+  .duvida dt {
+    font-size: 1.3rem;
+  }
+  .duvida dd {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+  }
+}

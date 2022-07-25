@@ -44,3 +44,12 @@
     grid-row: 1;
   }
 }
+
+@media (max-width: 500px) {
+  .tecnologia div + div {
+    margin-top: 40px;
+  }
+  .tecnologia-itens h3 {
+    font-size: 2rem;
+  }
+}

@@ -21,6 +21,7 @@ header {
   width: 100%;
   bottom: 0;
   justify-self: center;
+  text-align: center;
 }
 
 .tesla-img img {
@@ -29,23 +30,40 @@ header {
 }
 
 .tesla-img h1 {
-  text-align: center;
-  line-height: 5rem;
   letter-spacing: 0.5rem;
   margin-top: 30px;
+  margin-bottom: 15px;
   padding-right: 10px;
   padding-left: 10px;
 }
 
-@media (max-width: 600px) {
+.tesla-img p {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+@media (max-width: 820px) {
   .tesla-img h1 {
     line-height: 4rem;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .tesla-img h1 {
+    line-height: 3rem;
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+  }
+  .tesla-img p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .tesla-img h1 {
+    line-height: 2rem;
+
     font-size: 1rem;
   }
 }

@@ -3,7 +3,7 @@
 }
 
 .vantagens {
-  padding-top: 60px;
+  padding-top: 30px;
   padding-bottom: 60px;
   color: var(--cor-12);
 }
@@ -29,7 +29,7 @@
 }
 
 .vantagens-conteudo span {
-  line-height: 1.5rem;
+  line-height: 1.8rem;
 }
 
 .vantagens-conteudo li:nth-child(odd),
