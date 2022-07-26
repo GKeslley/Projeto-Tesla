@@ -21,7 +21,6 @@
 
 .vantagens-conteudo img {
   margin-bottom: 15px;
-  color: #87d607;
 }
 
 .vantagens-conteudo p {
@@ -34,7 +33,8 @@
 
 .vantagens-conteudo li:nth-child(odd),
 .vantagens-conteudo li:nth-child(even) {
-  border-right: 1px solid var(--cor-12);
+  border-right: 1px solid #f2f2f2;
+  border-radius: 4px;
 }
 
 .vantagens-conteudo li:nth-child(3),
@@ -47,7 +47,7 @@
     border: none;
   }
   .vantagens-conteudo li:nth-child(odd) {
-    border-right: 1px solid var(--cor-12);
+    border-right: 1px solid #f2f2f2;
     margin-left: 8px;
   }
 }
